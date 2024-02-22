@@ -1,0 +1,67 @@
+body{
+    font-family: 'Playpen sans', sans-serif;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    margin-top: 50px;
+    background: rgb(15,186,218);
+background: -moz-radial-gradient(circle, rgba(15,186,218,1) 25%, rgba(6,43,249,0.41220238095238093) 54%, rgba(148,187,233,1) 73%);
+background: -webkit-radial-gradient(circle, rgba(15,186,218,1) 25%, rgba(6,43,249,0.41220238095238093) 54%, rgba(148,187,233,1) 73%);
+background: radial-gradient(circle, rgba(15,186,218,1) 25%, rgba(6,43,249,0.41220238095238093) 54%, rgba(148,187,233,1) 73%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0fbada",endColorstr="#94bbe9",GradientType=1);
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    border: 0px solid  #ccc;
+    box-shadow: red 0px 0px 10px;
+}
+input:active{
+    outline: none;
+}
+input:hover{
+    padding: 20px;
+    transition: all .4s ease-in-out;
+}
+
+button{
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    /* box-shadow: 5px darkcyan; */
+    border: 0px solid;
+    transition: all .8s ease-in-out;
+}
+
+button:hover{
+    padding: 15px;
+    border: 1px solid greenyellow;
+}
+
+/* button:active{
+    padding: none;
+} */
+
+p span{
+    width: 250px;
+    background: white;
+    height: 3rem;
+    color: black;
+}
+
+#timer {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black; /* Initial color */
+}
+
+.red {
+    color: red; /* Color when 3 seconds left */
+}
