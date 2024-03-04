@@ -35,7 +35,7 @@
         if (countdown < 0) {
             location.reload();
         } else {
-            setTimeout(updateTimer, 3000);
+            setTimeout(updateTimer, 1000);
         }
     }
 
